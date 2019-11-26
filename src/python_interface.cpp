@@ -3,6 +3,14 @@
 #include "TelloPro.h"
 #include "takeoff.h"
 #include "land.h"
+#include "up.h"
+#include "down.h"
+#include "left.h"
+#include "right.h"
+#include "forward.h"
+#include "back.h"
+#include "cw.h"
+#include "ccw.h"
 
 TelloPro* get_instance(boost::python::str _inst)
 {
@@ -12,6 +20,22 @@ TelloPro* get_instance(boost::python::str _inst)
 	   return new Takeoff;
 	else if(instance == "land")
 		return new Land;
+	else if(instance == "up")
+		return new up;
+	else if(instance == "down")
+		return new down;
+	else if(instance == "left")
+		return new left;
+	else if(instance == "right")
+		return new right;
+	else if(instance == "forward")
+		return new forward;
+	else if(instance == "back")
+		return new back;
+	else if(instance == "cw")
+		return new cw;
+	else if(instance == "ccw")
+		return new ccw;
 	else
 		return nullptr;
 }

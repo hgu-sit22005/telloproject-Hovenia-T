@@ -1,0 +1,3 @@
+/data/telloproject-Hovenia-T/build/CMakeFiles/rebuild_cache.dir
+/data/telloproject-Hovenia-T/build/CMakeFiles/TelloPro.dir
+/data/telloproject-Hovenia-T/build/CMakeFiles/edit_cache.dir
